@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Infinite Ajax Scroll" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="jQuery" />
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/assets/js/jquery-ias.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
