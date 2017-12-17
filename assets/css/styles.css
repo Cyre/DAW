@@ -26,6 +26,7 @@
 .post {
     margin-top: 40px;
 }
+
 #container > .post > .row > .col-md-2 {
     display: inline-block;
 }

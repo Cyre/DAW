@@ -1,0 +1,50 @@
+[
+  {
+    "tipo": "review",
+    "display": "cita",
+    "contenido": {
+      "cita": "No ha estado mal.",
+      "autor": "Superduro Perez"
+    },
+    "enlace": "#"
+  },
+  {
+    "tipo": "estreno",
+    "display": "imagen",
+    "contenido": "/assets/img/obras/obra4.jpg",
+    "enlace": "#"
+  },
+  {
+    "tipo": "noticia",
+    "display": "titular",
+    "contenido": "Playoff, la obra más aclamada en el Festival de Teatro Español",
+    "enlace": "#"
+  },
+  {
+    "tipo": "review",
+    "display": "imagen",
+    "contenido": "/assets/img/obras/obra5.jpg",
+    "enlace": "#"
+  },
+  {
+    "tipo": "estreno",
+    "display": "cita",
+    "contenido": {
+      "cita": "Me dolía el pecho de la risa.",
+      "autor": "Riemucho González"
+    },
+    "enlace": "#"
+  },
+  {
+    "tipo": "noticia",
+    "display": "imagen",
+    "contenido": "/assets/img/obras/obra5.png",
+    "enlace": "#"
+  },
+  {
+    "tipo": "noticia",
+    "display": "titular",
+    "contenido": "Luis Arellano, el genio de la nueva década",
+    "enlace": "#"
+  }
+]
