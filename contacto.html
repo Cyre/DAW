@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapsoda Teatro</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:550" rel="stylesheet">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</head>
+<body>
+<header>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-5 logo"><img src="assets/img/logo.png"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="index.html">Inicio </a></li>
+                <li><a href="compania.html">Compañía </a></li>
+                <li><a href="espectaculos.html">Espectáculos </a></li>
+                <li><a href="merchandising.html">Merchandising </a></li>
+                <li class="active"><a href="contacto.html">Contacto </a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="row" style="margin-top: 40px">
+    <div class="col-md-8 col-md-offset-2">
+        <form id="form" name="contacto" onsubmit="" class="form-horizontal">
+            <div class="form-group">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" class="form-control" id="nombre" form="form" autofocus required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo</label>
+                <input type="email" class="form-control" id="correo" form="form" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">¿Qué nos quieres decir?</label>
+                <textarea id="mensaje" cols="100" rows="20" class="form-control" spellcheck="true"
+                          required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit" onclick="checkEmail();">Enviar</button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
