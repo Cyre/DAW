@@ -29,26 +29,72 @@
     </div>
 </header>
 
-<div class="row" style="margin-top: 40px">
-    <div class="col-md-8 col-md-offset-2">
-        <form id="form" name="contacto" onsubmit="" class="form-horizontal">
-            <div class="form-group">
-                <label for="nombre">Nombre</label><br>
-                <input type="text" class="form-control" id="nombre" form="form" autofocus required>
+
+<div class="container" style="margin-top: 100px">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Introduzca su nombre" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                   Dirección de Email</label>
+                                <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                    <input type="email" class="form-control" id="email" placeholder="Introduzca su Email" required="required" /></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                    Destinatario</label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="na" selected="">Opciones:</option>
+                                    <option value="service">Sugerencias</option>
+                                    <option value="suggestions">Quejas</option>
+                                    <option value="product">Empleo</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Mensaje</label>
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                          placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                Enviar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label for="correo">Correo</label>
-                <input type="email" class="form-control" id="correo" form="form" required>
-            </div>
-            <div class="form-group">
-                <label for="mensaje">¿Qué nos quieres decir?</label>
-                <textarea id="mensaje" cols="100" rows="20" class="form-control" spellcheck="true"
-                          required></textarea>
-            </div>
-            <button class="btn btn-primary" type="submit" onclick="checkEmail();">Enviar</button>
-        </form>
+        </div>
+        <div class="col-md-4">
+            <form>
+                <legend><span class="glyphicon glyphicon-globe"></span> Nuestra oficina</legend>
+                <address>
+                    <strong>Rapsoda Teatro</strong><br>
+                    Calle aprobado, nº 10<br>
+                    Las Palmas de Gran Canaria, LP 35110<br>
+                    <abbr title="Teléfono">
+                        T:</abbr>
+                    (+34) 928 75 76 78
+                </address>
+                <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:#">rapsoda@teatro.com</a>
+                </address>
+            </form>
+        </div>
     </div>
 </div>
 </body>
-
 </html>
