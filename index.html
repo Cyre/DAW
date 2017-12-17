@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAW1</title>
+    <title>Rapsoda Teatro</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:550" rel="stylesheet">
@@ -13,19 +13,6 @@
     <script src="assets/js/index.js"></script>
 
     <script src="assets/js/jquery-ias.min.js"></script>
-    <script>
-        var ias = jQuery.ias({
-            container: '#container',
-            item: '.post',
-            pagination: '#pagination',
-            next: '.next'
-        });
-
-        ias.extension(new IASSpinnerExtension());
-        ias.extension(new IASTriggerExtension({offset: 2}));
-        ias.extension(new IASNoneLeftExtension({text: "You reached the end"}));
-
-    </script>
 
 </head>
 
@@ -33,7 +20,7 @@
 
 <header>
         <div class="row">
-            <div class="col-md-12 col-md-offset-2"><img src="assets/img/logo.png" width="300" height="100"></div>
+            <div class="col-md-5 col-md-offset-5 logo"><img src="assets/img/logo.png"></div>
         </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2 ">
@@ -102,10 +89,10 @@
         </div>
     </div>
 </div>
-<div id="pagination">
+<nav id="pagination">
     <a href="page1.html">1</a>
     <a href="page2.html" class="next">2</a>
-</div>
+</nav>
 
 </body>
 
