@@ -6,24 +6,31 @@
       "cita": "No ha estado mal.",
       "autor": "Superduro Perez"
     },
+    "imagen":"",
     "enlace": "#"
   },
   {
     "tipo": "estreno",
     "display": "imagen",
-    "contenido": "/assets/img/obras/obra4.jpg",
+    "contenido": {
+      "cita":"Obra de Dios, protagonizada por Mariano Peña",
+      "autor":"En colaboración con el Teatro de Bellas Artes"
+    },
+    "imagen":"/assets/img/obras/obra4.jpg",
     "enlace": "#"
   },
   {
     "tipo": "noticia",
     "display": "titular",
     "contenido": "Playoff, la obra más aclamada en el Festival de Teatro Español",
+    "imagen":"assets/img/plays/obra2.jpg",
     "enlace": "#"
   },
   {
     "tipo": "review",
     "display": "imagen",
     "contenido": "/assets/img/obras/obra5.jpg",
+    "imagen":"",
     "enlace": "#"
   },
   {
@@ -33,18 +40,21 @@
       "cita": "Me dolía el pecho de la risa.",
       "autor": "Riemucho González"
     },
+    "imagen":"",
     "enlace": "#"
   },
   {
     "tipo": "noticia",
     "display": "imagen",
     "contenido": "/assets/img/obras/obra5.png",
+    "imagen":"",
     "enlace": "#"
   },
   {
     "tipo": "noticia",
     "display": "titular",
     "contenido": "Luis Arellano, el genio de la nueva década",
+    "imagen":"assets/img/jose-luis-arellano-bw.jpg",
     "enlace": "#"
   }
 ]
