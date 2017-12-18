@@ -86,6 +86,7 @@ blockquote {
 .logo img{
     width: 300px;
     height: 100px;
+    margin: 10px 10px;
 }
 
 .merch img {
@@ -158,4 +159,55 @@ h3.jefe {
 
 .colaboradores p {
     text-align: center;
+}
+
+
+
+
+
+.index-social{
+    background-color:#2c2c2c;
+    color:#fff;
+}
+
+.index-social a{
+    color:#fff;
+    font-size:18px;
+    display:block;
+    float:left;
+    padding:5px;
+}
+.index-link h3{
+    text-align:center;
+    color:#f1f1f1;
+    text-align:left;
+
+}
+.index-link{
+    background-color:#3A3C40;
+    margin-top: 20px;
+}
+.index-link ul{
+    padding:0px;
+}
+.index-link ul li{
+    list-style-type:none;
+}
+.index-link ul li a{
+    text-decoration:none;
+    font-size:12px;
+    color:#fff;
+    display:block;
+    padding:5px 0;
+    text-align:left;
+}
+.index-link ul li a:hover{
+    text-decoration:underline;
+}
+
+.link-area p{
+    color:#f1f1f1;
+}
+.copy-c{
+    padding-top:10px;
 }
