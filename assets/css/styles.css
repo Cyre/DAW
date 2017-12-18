@@ -15,12 +15,27 @@
     .carousel-inner {
         height: 100%;
     }
-}
 
+    #container > .post > .row > .col-md-2 > a > img {
+        width: 200px;
+        padding-left: 5%;
+
+    }
+
+}
 @media screen and (min-width: 1024px) {
     .carousel-inner{
         height: 400px;
     }
+}
+
+a {
+    color: #2E0006;
+}
+
+#container > .post > .row > .col-md-2 > a > img {
+    margin-right: 10px;
+
 }
 
 .post {
@@ -29,8 +44,18 @@
 
 #container > .post > .row > .col-md-2 {
     display: inline-block;
+    align: center;
+    margin-right: 5px;
 }
 
+.borde {
+    margin-right: 5px;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4C0A13;
+    background-color: #FFFDEE;
+}
 
 body {
     font-family: 'Saira Semi Condensed', sans-serif;
@@ -80,7 +105,8 @@ p {
 }
 
 blockquote {
-    border-left:none;
+    border-left: none;
+    border: 5px;
 }
 
 .logo img{
