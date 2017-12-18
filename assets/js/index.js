@@ -54,6 +54,39 @@ $(document).ready(function(){
             return false;
         }
     }
+
+    var ajaxreq = false, ajaxCallback;
+
+    function ajaxRequest(data) {
+        try {
+            ajaxreq = new XMLHttpRequest();
+        } catch (error) {
+            try {
+                ajaxreq = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch (error) {
+                return false;
+            }
+        }
+        var name = data['name'];
+        var email = data['email'];
+        var subject = data['subject'];
+        var message = data['message'];
+        var json = "{ \"name\" : \"" + name + "\" , \"email\" : \"" + email + "\", \"subject\" : \"" + subject + "\", \"message\": \"" + message + "\"}";
+        ajaxreq.open(POST, json);
+        ajaxreq.onreadystatechange = ajaxResponse;
+        ajaxreq.send(null);
+
+    }
+
+    function ajaxResponse() {
+        if (ajaxreq.readyState != 4) return;
+        if (ajaxreq.status == 200) {
+            if (ajaxCallback) ajaxCallback();
+        } else {
+            alert("Request failed: " + ajaxreq.statusText);
+        }
+        return true;
+    }
 });
 
 
