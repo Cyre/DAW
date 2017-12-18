@@ -30,7 +30,6 @@ $(document).ready(function(){
     $(this).addClass("active");
 
     /* Ininite scroll*/
-
     var ias = jQuery.ias({
         container: '#container',
         item: '.post',

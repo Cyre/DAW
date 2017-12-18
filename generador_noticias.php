@@ -6,7 +6,7 @@
  * Time: 14:39
  */
 $number = $_GET["count"];
-$noticias = file_get_contents('./assets/datos/noticias.json', true);
+$noticias = file_get_contents('assets/datas/noticias.json', true);
 $datos = json_decode($noticias, true);
 
 showFourNews($number,$datos);

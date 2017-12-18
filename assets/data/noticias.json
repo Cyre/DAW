@@ -1,12 +1,26 @@
 [
   {
+    "tipo": "noticia",
+    "display": "titular",
+    "contenido": "Luis Arellano, el genio de la nueva década",
+    "imagen": "assets/img/jose-luis-arellano-bw.jpg",
+    "enlace": "#"
+  },
+  {
+    "tipo": "noticia",
+    "display": "titular",
+    "contenido": "Playoff, la obra más aclamada en el Festival de Teatro Español",
+    "imagen": "assets/img/plays/obra2.jpg",
+    "enlace": "ficha-obra-3.html"
+  },
+  {
     "tipo": "review",
     "display": "cita",
     "contenido": {
       "cita": "No ha estado mal.",
       "autor": "Superduro Perez"
     },
-    "imagen":"",
+    "imagen": "assets/img/critico-teatro.jpg",
     "enlace": "#"
   },
   {
@@ -17,21 +31,15 @@
       "autor":"En colaboración con el Teatro de Bellas Artes"
     },
     "imagen":"/assets/img/obras/obra4.jpg",
-    "enlace": "#"
+    "enlace": "http://www.teatrobellasartes.es/es/ex/1478/obra-de-dios"
   },
-  {
-    "tipo": "noticia",
-    "display": "titular",
-    "contenido": "Playoff, la obra más aclamada en el Festival de Teatro Español",
-    "imagen":"assets/img/plays/obra2.jpg",
-    "enlace": "#"
-  },
+
   {
     "tipo": "review",
     "display": "imagen",
-    "contenido": "/assets/img/obras/obra5.jpg",
-    "imagen":"",
-    "enlace": "#"
+    "contenido": "Sorteo de 2 entradas para El Test",
+    "imagen": "/assets/img/obras/obra5.jpg",
+    "enlace": "https://gruposmedia.com/cartelera/el-test-luis-merlo-y-antonio-molero/"
   },
   {
     "tipo": "estreno",
@@ -40,21 +48,14 @@
       "cita": "Me dolía el pecho de la risa.",
       "autor": "Riemucho González"
     },
-    "imagen":"",
+    "imagen": "assets/img/riendo-teatro.jpg",
     "enlace": "#"
   },
   {
     "tipo": "noticia",
     "display": "imagen",
-    "contenido": "/assets/img/obras/obra5.png",
-    "imagen":"",
-    "enlace": "#"
-  },
-  {
-    "tipo": "noticia",
-    "display": "titular",
-    "contenido": "Luis Arellano, el genio de la nueva década",
-    "imagen":"assets/img/jose-luis-arellano-bw.jpg",
-    "enlace": "#"
+    "contenido": "/assets/img/obras/obra6.png",
+    "imagen": "La comedia más divertida del año",
+    "enlace": "http://pentacion.com/obras-en-cartel/5-y-accion/"
   }
 ]
